@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>中国政府公开网</title>
+  <style>
+    body {
+      font-family: "微软雅黑", sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #d60000;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #eee;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      color: #333;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+      background-color: white;
+    }
+    .section {
+      margin-bottom: 30px;
+    }
+    .section h2 {
+      border-left: 5px solid #d60000;
+      padding-left: 10px;
+      color: #d60000;
+    }
+    .section ul {
+      list-style: none;
+      padding: 0;
+    }
+    .section ul li {
+      margin: 10px 0;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 5px;
+    }
+    footer {
+      background-color: #f1f1f1;
+      color: #777;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>中国政府公开网</h1>
+    <p>政务公开 · 政策发布 · 民意互动</p>
+  </header>
+
+  <nav>
+    <a href="#">首页</a>
+    <a href="#">信息公开</a>
+    <a href="#">政策文件</a>
+    <a href="#">部门动态</a>
+    <a href="#">国务院</a>
+    <a href="#">互动回应</a>
+  </nav>
+
+  <div class="container">
+    <div class="section">
+      <h2>最新公开信息</h2>
+      <ul>
+        <li><a href="#">国务院办公厅关于加快推进政务信息共享的通知</a> <span>（2025-07-04）</span></li>
+        <li><a href="#">2025年上半年经济运行情况发布</a> <span>（2025-07-03）</span></li>
+        <li><a href="#">国家发展改革委回应民生热点问题</a> <span>（2025-07-02）</span></li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>政策文件</h2>
+      <ul>
+        <li><a href="#">《关于推动数字经济高质量发展的若干意见》</a></li>
+        <li><a href="#">《碳达峰碳中和实施方案（2025-2030年）》</a></li>
+        <li><a href="#">《国务院关于支持中小企业发展的若干政策》</a></li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>互动回应</h2>
+      <ul>
+        <li><a href="#">关于社会保障卡全国通用问题的回应</a></li>
+        <li><a href="#">网民建议：延长高校寒暑假，教育部回应</a></li>
+        <li><a href="#">医保支付改革有关问题答记者问</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    版权所有 © 2025 中国政府公开网 | 京ICP备05070218号<br>
+    网站支持：中华人民共和国国务院办公厅
+  </footer>
+
+</body>
+</html>
